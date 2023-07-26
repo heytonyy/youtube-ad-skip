@@ -1,0 +1,8 @@
+# ignore .env file with API keys and other sensitive info
+.env
+
+# ignore node_modules folder, use npm install to install dependencies
+node_modules
+
+# ignore .DS_Store files bc Mac
+*.ds_store

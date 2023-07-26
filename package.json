@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chrome-types": "^0.1.218",
+    "dotenv": "^16.3.1"
+  }
+}
