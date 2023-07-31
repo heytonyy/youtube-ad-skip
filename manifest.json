@@ -4,7 +4,13 @@
   "description": "Skip YouTube ads automatically without having to click the skip button.",
   "version": "1.0",
   "action": {
-    "default_popup": "popup/index.html",
-    "default_icon": "images/default_icon.png"
-  }
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/default_icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["scripts/content.js"]
+    }
+  ]
 }
